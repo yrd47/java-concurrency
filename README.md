@@ -1,2 +1,2 @@
 # java-concurrency
-Java
+Java并发编程
