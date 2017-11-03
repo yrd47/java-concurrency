@@ -1,0 +1,20 @@
+/build/
+/target/
+*.log
+*.log.*
+
+.project
+.classpath
+.settings
+.gradle
+.metadata
+.eclipse-pmd
+.pmd
+
+*.class
+ 
+# Package Files #
+*.war
+*.ear
+
+.idea/
