@@ -9,7 +9,7 @@ public class Main {
         Thread task = new PrimeGenerator();
         task.start();
         try {
-            Thread.sleep(5000L);
+            Thread.sleep(1000L);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
