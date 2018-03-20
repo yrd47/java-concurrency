@@ -10,7 +10,6 @@ public class SafeTask implements Runnable {
 
     /**
      * 线程局部变量，其中的内容不能共享，线程被初始化时会创建其包含的变量
-     * 
      * 匿名内部类 通过这种写法从ThreadLocal继承了一个匿名的子类，在这个子类中覆盖了ThreadLocal的initialValue方法，
      * 同时创建了这个子类的一个实例（因为这个子类是匿名的，无法在后续代码中继续引用，所以必须在定义时同时创建实例）
      */
